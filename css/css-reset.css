@@ -1,0 +1,35 @@
+:root{
+  color-scheme: dark light;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;   
+}
+
+p {
+  text-wrap: pretty;
+}
+
+svg,
+img {
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
