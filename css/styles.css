@@ -2,6 +2,7 @@
 :root{
   --logo-color: #0866FF;
   --button-create-acc: #42B72A;
+  --hover-create-acc: #36A420;
   --button-hover: #1d74ff;
   --ligth-background: #F0F2F5;
   --dark-background: #2b2933;
@@ -13,6 +14,14 @@
   --text-black-color: #000;
 }
 
+
+.hidden{
+  display: none;
+}
+
+.email-error, .password-error{
+  color: red;
+}
 
 body{
   background-color: light-dark(var(--ligth-background),var(--dark-background));
@@ -122,6 +131,10 @@ body{
   color: var(--default-color);
   font-weight: 600;
   font-size: 18px;
+}
+
+.create-acc:hover{
+  background-color:var(--hover-create-acc) ;
 }
 
 .create-page{
